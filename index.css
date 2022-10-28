@@ -1,0 +1,159 @@
+*{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logoLP{
+  max-width: 70%;
+  padding-left: 40px;
+  width: 50%;
+}
+header{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.menu_déroulant{
+  color:  rgba(0,0,0,.6);
+  text-align: center;
+  margin-right: auto;
+  list-style: none;
+  background-color: white;
+  display: flex
+}
+.menu_déroulant li{
+  text-align: right;
+  padding: 10px;
+  justify-content: space-between;
+  margin-right: auto;
+  font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+}
+  .inscrip{
+    background-color: rgb(51, 102, 153);
+    height: 1080px;
+  }
+  img.visage{
+    display: flex;
+    width: 100%;
+  }
+
+
+  .block2{
+    display:flex;
+    color: rgb(255, 255, 255);
+    display:flex;
+    text-align: left;
+    font-family: 'Roboto Regular' ,Arial, Helvetica,Arial,Lucida, sans-serif;
+    font-size: 30px;
+  }
+
+  .button {
+    background-color: #ff0000; 
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+  }
+
+
+  .button-64 {
+    
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    margin-left: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    text-align: center;
+    display: flex;
+    padding: 16px 24px;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  .bordered {
+    width: 1850px;
+    height: 100px;
+    margin: 0px;
+    padding: 20px;
+    background-color: #ff0000;
+    border: 10px solid yellowgreen;
+  }
+
+  .text4 {
+    color: #FFFFFF;
+
+    text-align: center;
+    vertical-align: sub;
+    padding-bottom: 10px;
+    position: relative;
+    
+
+  }
+
+  .border1 {
+
+    width:1885;
+    height: 889px;
+    margin: 0px;
+    padding: 20px;
+    color: #000000;
+
+    background-color: aqua;
+    border: 10px solid red;
+  }
+  
+  .textborder1 {
+    
+    font-family: 'Roboto Regular' ,Arial, Helvetica,Arial,Lucida, sans-serif;  
+    align-items: center;
+
+  }
